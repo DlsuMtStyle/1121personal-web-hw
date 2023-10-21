@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    margin: auto ;
+
+    .item {
+        flex-grow: 1;
+        padding: 20px 3em;
+        border-bottom: 5px solid transparent;
+        transition: 0.3s;
+        &:hover {
+            border-bottom: 5px solid #643182;
+        }
+    }
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #533ba9;
+    font-weight: 600;
+  }
+
+.resume_img {
+    float: left;
+}
+
+.resume_img img {
+    margin-left: 230px;
+    margin-top: 120px;
+    width: 350px;
+    height: 350px;
+ }
+
+.resume_text {
+    color: #1C1C1C
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+    float: right;
+    margin-right: 400px;
+    margin-top: 100px;
+}
+
+.name {
+    font-size: 35px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.line {
+    margin-top: -20px;
+    font-weight: 700;
+}
+
+.schoolbirth {
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.quote {
+    color: #33213F
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: EB Garamond;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.intro {
+    line-height: 30px;
+    font-weight: 300;
+}

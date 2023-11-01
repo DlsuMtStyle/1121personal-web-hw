@@ -1,3 +1,8 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
 .container {
     display: flex;
     padding: 20px;
@@ -9,15 +14,15 @@
     display: flex;
     justify-content: center;
     margin: auto ;
+}
 
-    .item {
-        flex-grow: 1;
-        padding: 20px 3em;
-        border-bottom: 5px solid transparent;
-        transition: 0.3s;
-        &:hover {
-            border-bottom: 5px solid #643182;
-        }
+.item {
+    flex-grow: 1;
+    padding: 20px 3em;
+    border-bottom: 5px solid transparent;
+    transition: 0.3s;
+    &:hover {
+        border-bottom: 5px solid #643182;
     }
 }
 
@@ -27,6 +32,10 @@
     font-weight: 600;
     position: sticky;
     top: 0;   /*固定選單列*/
+  }
+
+.main-aboutme {
+    scroll-behavior: auto;
   }
 
 .resume_img {
@@ -41,7 +50,7 @@
  }
 
 .resume_text {
-    color: #1C1C1C
+    color: #1C1C1C;
     font-family: 'Noto Sans TC', sans-serif;
     letter-spacing: 2px;
     float: right;
@@ -85,9 +94,9 @@
 }
 
 .quote {
-    color: #33213F
-    margin-top: 50px;
+    color: #33213F;
     margin-left: 50px;
+    margin-bottom: 150px;
     font-size: 20px;
     font-family: EB Garamond;
     font-weight: bolder;
@@ -100,6 +109,83 @@
 }
 
 .main-profession {
-    background-color: white;
-    margin:auto;
+    background-color: #D7D1E1;
+    margin-top: 35px;
+}
+
+.prohead {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.proski {
+    font-family: EB Garamond;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.line1 {
+    width: 250px;
+}
+
+.line2 {
+    max-width: 18%;
+    max-height: 18%;
+    margin: 150px 0px;
+}
+
+.exp_left {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 15px;
+    float: right;
+    margin-top: 30px;
+}
+
+.exp_right{
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 15px;
+
+}
+
+.exphead_left {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.exphead_right {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.exptext_left {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 25px;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.exptext_right {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 25px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 30px;
+    letter-spacing: 2px;
 }

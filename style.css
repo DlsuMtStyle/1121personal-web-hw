@@ -129,6 +129,28 @@ body {
     letter-spacing: 3px;
 }
 
+.pro-html {
+    margin: 100px 0 0 100px;
+}
+
+.skiword {
+    float: left;
+}
+
+.pro-container {
+    width: 500px;
+    height: 25px;
+    border-radius: 25px;
+    background: #fafafa;
+    float: right;
+}
+.pro-progress {
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: #a094b1;
+    float: right;
+}
+
 table {
     margin-bottom: 150px;
     margin-left: auto;
@@ -198,6 +220,7 @@ table {
 
 .main-hobbies {
     background-color: #D7D1E1;
+    padding-bottom: 10px;
 }
 
 hr {
@@ -211,14 +234,14 @@ hr {
 }
 
 .hobimg {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 70%;
+    max-height: 70%;
     border-radius: 15px;
-    margin-left: -250px;
 }
 
 .tdimg {
     text-align: center;
+    width:50%;
 }
 
 .hobhead {
@@ -228,6 +251,7 @@ hr {
     letter-spacing: 3px;
     text-align: left;
     margin-top: 20px;
+    margin-left: 30px;
 }
 
 .hobtext {
@@ -236,5 +260,17 @@ hr {
     font-weight: 300;
     text-align: left;
     margin-top: 30px;
+    margin-left: 30px;
     letter-spacing: 2px;
+}
+
+.footer1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    background-color: #6d6280;
+    letter-spacing: 2px;
+    padding: 20px;
+    color: #ffffff;
+    margin: 0;
 }

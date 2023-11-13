@@ -129,6 +129,12 @@ body {
     letter-spacing: 3px;
 }
 
+table {
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .line1 {
     width: 250px;
 }
@@ -182,6 +188,49 @@ body {
 }
 
 .exptext_right {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 25px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.main-hobbies {
+    background-color: #D7D1E1;
+}
+
+hr {
+    border: 1px solid #413C44;
+    border-radius: 20px;
+    margin: 100px;
+}
+
+.table2 {
+    margin-top: 150px;
+}
+
+.hobimg {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 15px;
+    margin-left: -250px;
+}
+
+.tdimg {
+    text-align: center;
+}
+
+.hobhead {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.hobtext {
     font-family: 'Noto Sans TC', sans-serif;
     line-height: 25px;
     font-weight: 300;

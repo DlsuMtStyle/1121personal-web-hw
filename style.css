@@ -1,3 +1,4 @@
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -38,23 +39,32 @@ body {
     scroll-behavior: auto;
   }
 
-.resume_img {
-    float: left;
+.aboutme {
+    display: flex;
 }
 
-.resume_img img {
+.resume_img {
+    background: url(img/me2.png);
+    background-size: cover;
     margin-left: 230px;
     margin-top: 120px;
     width: 350px;
     height: 350px;
+    border-radius: 50%;
+ }
+
+ .resume_img:hover {
+    background: url(img/me.png);
+    background-size: cover;
+    box-shadow: 0px 0px 20px 2px #9a8ab5;
+    transition: 0.5s all ease;
  }
 
 .resume_text {
     color: #1C1C1C;
     font-family: 'Noto Sans TC', sans-serif;
     letter-spacing: 2px;
-    float: right;
-    margin-right: 400px;
+    margin-left: 150px;
     margin-top: 100px;
 }
 
@@ -281,20 +291,88 @@ table {
     margin: 150px 0px;
 }
 
-.exp_left {
-    max-width: 70%;
-    max-height: 70%;
+.exp_left_1 {
+    background: url("img/exp1_2.png");
+    background-size: cover;
+    width: 471px;
+    height: 281px;
     border-radius: 15px;
     float: right;
     margin-top: 30px;
 }
 
-.exp_right{
-    max-width: 70%;
-    max-height: 70%;
+.exp_left_1:hover {
+    background: url("img/exp1_1.png");
+    background-size: cover;
+    box-shadow: -50px 50px #a094b1;
+    transition: 0.5s all ease;
+}
+
+.exp_left_2 {
+    background: url("img/exp3_1.png");
+    background-size: cover;
+    width: 471px;
+    height: 281px;
+    border-radius: 15px;
+    float: right;
+    margin-top: 30px;
+}
+
+.exp_left_2:hover {
+    background: url("img/exp3_2.png");
+    background-size: cover;
+    box-shadow: -50px 50px #a094b1;
+    transition: 0.5s all ease;
+}
+
+.exp_right_1 {
+    background: url("img/exp2_1.png");
+    background-size: cover;
+    width: 471px;
+    height: 281px;
     border-radius: 15px;
 
 }
+
+.exp_right_1:hover {
+    background: url("img/exp2_2.png");
+    background-size: cover;
+    box-shadow: 50px 50px #a094b1;
+    transition: 0.5s all ease;
+}
+
+.exp_right_2 {
+    background: url("img/exp4_1.png");
+    background-size: cover;
+    width: 471px;
+    height: 281px;
+    border-radius: 15px;
+
+}
+
+.exp_right_2:hover {
+    background: url("img/exp4_2.png");
+    background-size: cover;
+    box-shadow: 50px 50px #a094b1;
+    transition: 0.5s all ease;
+}
+
+mark {
+    background-color: transparent;
+}
+
+.exp-td:hover mark {
+    background-color: none;
+    font-weight: 500;
+    background: linear-gradient(transparent 40%, rgba(255,255,255,0) 50%, #d5c5ee 75%, #d5c5ee 90%, transparent 95%);
+}
+
+.hob-td:hover mark {
+    background-color: none;
+    font-weight: 500;
+    background: linear-gradient(transparent 40%, rgba(255,255,255,0) 50%, #a38cca 75%, #a38cca 90%, transparent 95%);
+}
+
 
 .exphead_left {
     font-family: 'Noto Sans TC', sans-serif;
@@ -353,6 +431,10 @@ hr {
     border-radius: 15px;
 }
 
+.hobimg:hover {
+    border: 3px dashed #413C44;
+}
+
 .tdimg {
     text-align: center;
     width:50%;
@@ -377,6 +459,23 @@ hr {
     margin-left: 30px;
     letter-spacing: 2px;
 }
+
+.backtop {
+    display: inline-block;
+    text-decoration: none;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 0.25rem;
+    box-shadow: 0 0 10px 1px #a687b8; ;
+  }
 
 .footer1 {
     font-family: 'Noto Sans TC', sans-serif;

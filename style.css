@@ -129,26 +129,140 @@ body {
     letter-spacing: 3px;
 }
 
-.pro-html {
-    margin: 100px 0 0 100px;
+.pro-skill-all {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
 }
 
-.skiword {
-    float: left;
+.pro-skill {
+    margin: 100px 0 0 150px;
 }
+
+.pro-word {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-left: 4px;
+}
+
+.pro-word2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-left: 4px;
+    margin: 25px 0 0 160px;
+    text-align: center;
+}
+
+progress{
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius:20px;   /* 圓角 */
+    overflow: hidden;     /* 超過範圍就裁切 */
+    height:25px;          /* 高度 */
+    width: 500px;
+  }
+
+  ::-webkit-progress-value {
+    background-color: #a094b1;
+  }
+  ::-moz-progress-value {
+    background-color: #a094b1;
+  }
+
+  ::-webkit-progress-bar {
+    background-color: #f0e9f9;
+  }
+  ::-moz-progress-bar {
+    background-color: #f0e9f9;
+  }
+
 
 .pro-container {
-    width: 500px;
-    height: 25px;
-    border-radius: 25px;
-    background: #fafafa;
-    float: right;
+    display: inline-block;
 }
-.pro-progress {
-    height: inherit;
-    border-radius: 25px 0 0 25px;
-    background: #a094b1;
-    float: right;
+
+.circle-container{
+    display:flex;
+    margin: 100px 0 0 150px;
+}
+
+.left-box1{
+    width: 100px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+}
+
+.left-circle1{
+    width: 160px;
+    height: 160px;
+    border: 20px solid #f0e9f9;
+    position: absolute;
+    border-radius: 50%;
+    left: 0px;
+    top:0px;
+    border-bottom: 20px solid #a094b1;
+    border-left: 20px solid #a094b1;
+    transform: rotate(45deg);
+    animation-name:circle_left;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.right-box1 {
+    width: 100px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.right-circle1 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 20px solid #f0e9f9;
+    position: absolute;
+    border-top: 20px solid #a094b1;
+    border-right: 20px solid #a094b1;
+    right: 0px;
+    top: 0px;
+    animation-name: circle_right;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: rotate(-135deg);
+}
+
+@keyframes circle_right {
+    0% {
+        transform: rotate(-135deg);
+    }
+
+    50%,100% {
+        transform: rotate(45deg);
+    }
+}
+@keyframes circle_left {
+    0%,50% {
+        transform: rotate(-135deg);
+    }
+
+    100% {
+        transform: rotate(-45deg);
+    }
+}
+
+div {
+    display: block;
 }
 
 table {
